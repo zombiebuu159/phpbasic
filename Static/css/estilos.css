@@ -71,8 +71,8 @@ cursor: pointer;
 }
 
 .Formulario_btn:hover{
- box-shadow: 3px 0px 30px rgba(22,22,22,0.7);
-font-size: 24px;
+    box-shadow: 3px 0px 30px rgba(22,22,22,0.7);
+    font-size: 24px;
 }
 
   
@@ -94,4 +94,76 @@ padding: 3rem;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+/*--------------------------------------------------*/
+.form-container, .resultado-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container table {
+    width: 100%;
+}
+
+.form-container td {
+    padding: 10px 0;
+}
+
+.form-container input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/*Resultados*/
+.resultado {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    color: #333;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.resultado {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.resultado strong {
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 20px;
 }

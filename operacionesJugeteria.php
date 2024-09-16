@@ -1,11 +1,23 @@
 <?php include 'includes/header.php'  ?>
 
+<?php
+
+$pesosuper = 112;
+$pesobatman = 125;
+
+$cantsuper = $_REQUEST["superman"];
+$cantbatman = $_REQUEST["batman"];
+
+$paquetesuper = $cantsuper * $pesosuper;
+$paquetebatman = $cantbatman * $pesobatman;
+$pesototal = $paquetebatman + $paquetesuper;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jugeteria</title>
+    <title>Document</title>
     <link rel="stylesheet" href="Static/css/estilos.css">
 </head>
 <body>
@@ -28,7 +40,12 @@
             </table>
         </form>
     </div>
-    
-    
+    <div class="resultado-container">
+        <div class="resultado">
+            <p>El peso del paquete superman es: <strong><?php echo $paquetesuper; ?></strong></p>
+            <p>El peso del paquete batman es: <strong><?php echo $paquetebatman; ?></strong></p>
+            <p>El peso total del paquete es: <strong><?php echo $pesototal; ?></strong></p>
+        </div>
+    </div>
 </body>
 </html>
