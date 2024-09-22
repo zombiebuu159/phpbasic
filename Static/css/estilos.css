@@ -123,6 +123,18 @@ padding: 3rem;
 
 }
 
+.form-container label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.form-container label:hover {
+    color: #007BFF;
+    text-shadow: 2px 2px 5px rgba(0, 123, 255, 0.3);
+}
+
 .form-container table {
     width: 100%;
 }
@@ -149,9 +161,10 @@ label {
     font-size: 16px;
 }
 
+
 .form-container input[type="submit"] {
     width: 100%;
-    padding: 10px;
+    padding: 1rem;
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -190,4 +203,6 @@ label {
     font-weight: bold;
     font-size: 20px;
 }
-/*areas*/
+/*Nav*/
+/* Estilo del nav */
+

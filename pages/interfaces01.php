@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'  ?>
+<?php include '../includes/header.php'  ?>
 <!--Genrar un aplicativo que permita grabar productos en una tienda departamental los datos a almacenar son el nombre  del articulo, precio del articulo: si el codigo es 1 se realizara un descuento del 15% y si el codigo es 2 el descuento sera del 30%-->
 <!DOCTYPE html>
 <html lang="en">
@@ -36,4 +36,4 @@
 </body>
 </html>
 
-<?php include 'includes/footer.php'  ?>
+<?php include '../includes/footer.php'  ?>

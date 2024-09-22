@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'  ?>
+<?php include '../includes/header.php'  ?>
 <?php           
 //variables y operaciones aritmeticas
 $numero1 = 10;
@@ -54,4 +54,4 @@ $total -= 10;
 echo $total;
 echo "<hr>";
 ?>
-<?php include 'includes/footer.php'  ?>
+<?php include '../includes/footer.php'  ?>

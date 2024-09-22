@@ -1,5 +1,6 @@
-<?php include 'includes/header.php'  ?>
-
+<?php include '../includes/header.php' ?>
+<link href="..Static/css/estilos.css" rel="stylesheet" type="text/css">
+<h2>hola</h2>
 <?php
     $art = $_POST['txtarticulo'];
     $precio = $_REQUEST['txtprecio'];
@@ -23,7 +24,7 @@
                 echo "El precio con descuento es: $desc1 <br>";
                 echo "El precio original es: $precio";
             break;
-            default:
+            default:    
                 echo "No hay opcion";
             break; 
 
@@ -32,4 +33,4 @@
     }
 ?>
 
-<?php include 'includes/footer.php'  ?>
+<?php include '../includes/footer.php'; ?>

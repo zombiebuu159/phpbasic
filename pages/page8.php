@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'  ?>
+<?php include '../includes/header.php'  ?>
 <?php           
 //Arreglos
 
@@ -23,4 +23,4 @@ echo $lenguajes [3] . "<br>";
 
 
 ?>
-<?php include 'includes/footer.php'  ?>
+<?php include '../includes/footer.php'  ?>

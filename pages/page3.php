@@ -1,12 +1,12 @@
-<?php include 'includes/header.php'  ?>
+<?php include '../includes/header.php'  ?>
 <?php           
 //variables y con concatenacion
-$nombre = "Enrique Ismael";
-$apellidos ="Coronel Maldonado";
+$nombre = "Jose Ivan";
+$apellidos ="Barranco Espinoza";
 
 echo $nombre . " " . $apellidos;
 
-$edad = 39;
+$edad = 30;
 echo "<hr>";
 echo $nombre . " edad: " . $edad;
 //para concatenar se utiliza un punti "."
@@ -14,4 +14,4 @@ echo $nombre . " edad: " . $edad;
 
 
 ?>
-<?php include 'includes/footer.php'  ?>
+<?php include '../includes/footer.php'  ?>

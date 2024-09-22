@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'  ?>
+<?php include '../includes/header.php'  ?>
 <?php           
 
     $tecnologias = ['CSS','HTML','JavaScript','Jquery','Ajax'];

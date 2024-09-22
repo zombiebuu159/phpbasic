@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'  ?>
+<?php include '../includes/header.php'  ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="../Static/css/estilos.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div class="form-container">

@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'  ?>
+<?php include '../includes/header.php'  ?>
 <?php           
 //Estructuras de control selectivo switch
 $lenguaje = "SQL";
@@ -28,4 +28,4 @@ switch($lenguaje){
 
 
 ?>
-<?php include 'includes/footer.php'  ?>
+<?php include '../includes/footer.php'  ?>

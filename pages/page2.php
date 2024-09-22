@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'  ?>
+<?php include '../includes/header.php'  ?>
 <?php           
 //variables
 $hola = "Estancia o estadia";
@@ -9,4 +9,4 @@ echo $mensaje;
 echo  $hola;
 
 ?>
-<?php include 'includes/footer.php'  ?>
+<?php include '../includes/footer.php'  ?>
